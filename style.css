@@ -1,0 +1,39 @@
+body{
+    background-color: #d3d3d3;
+    height: auto;
+}
+h1{
+    background-color: lightpink;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px red;
+    font-size: 3em;
+}
+figure{
+    text-align: center;
+}
+img{
+    width: 300px;
+    height: 250px;
+    margin: 0 30px;
+    border-radius: 21px;
+}
+figcaption{
+    font-size: 40px;
+   font-family: 'Satisfy', cursive;
+   text-shadow:2px 2px red;
+}
+figure:hover{
+    background-color: #f5e9e9;
+    cursor: grab;
+    color: red;
+    border-radius: 21px;
+}
+#firstdiv{
+    display: flex;
+    flex-direction: row;
+}
+#second-div{
+    display: flex;
+    flex-direction: row;
+}
